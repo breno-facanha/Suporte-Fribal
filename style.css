@@ -66,9 +66,6 @@ footer{
     background-color: #ed1d24;
     text-align: center;
     color: blanchedalmond;
-    display: flex;
-	flex-direction: column;
-	justify-content: center;
 }
 
 footer img {
@@ -88,5 +85,49 @@ a{
     margin: auto;
     text-decoration: none;
     color: black;
+}
+
+footer section {
+    /*display: flex;
+    justify-content: space-around; */
+    height: 150px;
+    display: flex;
+	justify-content: space-around;
+}
+
+.divcontato{
+    display: flex;
+	flex-direction: column;  
+}
+
+.divcontato a {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.divcontato img{
+    margin: 0px 0px 9px 9px;
+}
+
+.email{   
+    display: flex;    
+}
+
+.email a {
+    display: flex;	
+    justify-content: center;
+}
+
+.email img{    
+    height: 37px;
+    width: 40px;
+}
+
+.email h3{
+    margin: 10px;
+    color: blanchedalmond;
 }
 
