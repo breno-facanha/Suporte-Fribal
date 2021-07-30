@@ -27,8 +27,21 @@ header h1 {
 #conteudo{
     background-color: #eaeaea;
     display: flex;
-	flex-direction: column;
-	justify-content: center;
+	justify-content: space-between;
+}
+
+#conteudo img{
+    height: 200px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+#conteudo p{
+    margin-right: 45px;
+    margin-top: 100px;
+    font-size: 20px;
 }
 
 main section{
