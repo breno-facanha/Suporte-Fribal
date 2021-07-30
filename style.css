@@ -4,6 +4,9 @@
     border: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 body{
     width: 600px;
     margin: auto;
@@ -12,7 +15,7 @@ body{
 header{
     height: 100px;
     background-color: #ed1d24;
-    border-radius: 9px 9px 0px 0px;
+    border-radius: 9px 9px 0px 0px; 
     display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -21,6 +24,12 @@ header{
 header h1 {
     text-align: center;
     color: blanchedalmond;
+    
+}
+
+header img{
+    height: 100px;
+    width: 600px;
     
 }
 
@@ -42,18 +51,21 @@ header h1 {
     margin-right: 45px;
     margin-top: 100px;
     font-size: 20px;
+    color: #1A91DA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 main section{
     height: 250px;
-    text-align: center;
-    
+    text-align: center;      
 }
 
 #principal{
     background-color: #a89b9b56;
     height: 150px;
     display: flex;
+    
 }
 
 #principal2{
@@ -98,6 +110,10 @@ a{
     margin: auto;
     text-decoration: none;
     color: black;
+}
+
+footer h1{
+    padding-top: 10px;
 }
 
 footer section {
