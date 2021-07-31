@@ -8,13 +8,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body{
-    width: 600px;
+    width: 650px;
     margin: auto;
 }
 
 header{
-    height: 100px;
-    background-color: #ed1d24;
+    height: 150px;
+    /*background-image: linear-gradient(to bottom, #ED1D24, #BA161C, #701E21); */
+    background-image: linear-gradient(to bottom, #F03B30, #ED1D24, #BA161C );
     border-radius: 9px 9px 0px 0px; 
     display: flex;
 	flex-direction: column;
@@ -39,13 +40,14 @@ header img{
 	justify-content: space-between;
 }
 
-#conteudo img{
+#conteudo div img{
     height: 200px;
     width: 250px;
     margin-top: 20px;
     margin-left: 20px;
     
 }
+
 
 #conteudo p{
     margin-right: 45px;
@@ -64,8 +66,7 @@ main section{
 #principal{
     background-color: #a89b9b56;
     height: 150px;
-    display: flex;
-    
+    display: flex;   
 }
 
 #principal2{
@@ -83,12 +84,17 @@ main section{
     display: flex;
 	flex-direction: column;
 	justify-content: center;
+    /* IFEN NA QUEBRA DE PAGINA DE TODOS OS NAVEGADORES*/
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;  
 }
 
 footer{
     height: 250px;
     border-radius: 0px 0px 9px 9px ;
-    background-color: #ed1d24;
+    background-image: linear-gradient(to bottom, #F03B30, #ED1D24, #BA161C );
     text-align: center;
     color: blanchedalmond;
 }
@@ -158,5 +164,53 @@ footer section {
 .email h3{
     margin: 10px;
     color: blanchedalmond;
+}
+
+@media (max-width:600px){
+    #conteudo {
+        display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+    }
+    #conteudo div p{
+        display: none;
+    }
+    body{
+        padding: auto;
+        width: auto;
+        
+    }
+    #principal{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    #aa{
+        margin-top: 10px;
+    }
+    #principal a div{
+        background-image: linear-gradient(to bottom, #F03B30, #ED1D24, #BA161C );
+        /*background-color: #ed1d24;*/
+        width: 250px;
+        text-align: center;
+        margin-bottom: 10px;
+        color: white;
+        font-size: 19px;
+    }
+    #principal2{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    #principal2 a div{
+        background-image: linear-gradient(to bottom, #F03B30, #ED1D24, #BA161C );
+        /* background-color: #ed1d24; */
+        width: 250px;
+        text-align: center;
+        margin-bottom: 10px;
+        color: white;
+        font-size: 19px;
+    }
+    
 }
 
