@@ -128,11 +128,20 @@ footer section {
     height: 150px;
     display: flex;
 	justify-content: space-around;
+    
 }
 
 .divcontato{
     display: flex;
-	flex-direction: column;  
+	flex-direction: column; 
+
+}
+
+.divcontato img:hover{
+    height: 30px;
+    width: 30px;
+    transition-duration: .3s;
+    transition: .2;
 }
 
 .divcontato a {
