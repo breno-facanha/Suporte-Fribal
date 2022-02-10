@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    height: 150px;
+    height: 110px;
     /*background-image: linear-gradient(to bottom, #ED1D24, #BA161C, #701E21); */
     background-image: linear-gradient(to bottom, #F03B30, #ED1D24, #BA161C );
     border-radius: 9px 9px 0px 0px; 
@@ -21,16 +21,17 @@ header{
 	flex-direction: column;
 	justify-content: center;
 }
+#menu{
+    height: 30px;
+    background-color: #BA161C;
+}
+#menu img{
+    margin-left: 10px;
+}
 
 header h1 {
     text-align: center;
     color: blanchedalmond;
-    
-}
-
-header img{
-    height: 100px;
-    width: 600px;
     
 }
 
